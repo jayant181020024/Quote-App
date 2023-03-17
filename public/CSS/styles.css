@@ -1,0 +1,99 @@
+/* CSS RESET - */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+button {
+    font: inherit;
+}
+
+body{
+    height:100%;
+    width: 100%;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+
+}
+
+.container{
+    /* margin-top: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.quote-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+      
+
+ .quote-box {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+#quote {
+    color: whitesmoke;
+    text-align: center;
+}
+#author {
+    float: right;
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.btn-mid {
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out; */
+    /* transition: all .4s ease-in-out; */
+}
+.btn-white {
+    border: solid 2px #fff;
+    background: transparent;
+    color: #fff ;
+    width: 400px;
+}
+.btn-white:hover {
+    border: solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f ;
+}
+
+

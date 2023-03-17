@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>codedamn HTML Playground</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Quote Generator App</h1>
+        </header>
+        <div class="quote-container">
+            <div class="quote-box">
+                <p id="quote">
+                    <%= Quote %>
+                </p>
+                <small id="author">
+                    <%= Author %>
+                </small>
+            </div>
+            <form action="/" method="POST">
+                <button type="submit" id="btn" class="btn-mid btn-white">Generate</button>
+            </form>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
